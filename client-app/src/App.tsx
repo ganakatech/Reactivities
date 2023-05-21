@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
 import { act } from 'react-dom/test-utils';
-import { Button, Header, List } from 'semantic-ui-react';
+import { Header, List } from 'semantic-ui-react';
 
 function App() {
   const [activities, setActivities] = useState([]);
